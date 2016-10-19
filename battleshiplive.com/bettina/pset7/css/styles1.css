@@ -1,0 +1,69 @@
+
+
+table.grid {
+	border-width: 5px 5px 5px 5px;
+	border-spacing: 2px;
+	border-style: solid solid solid solid;
+	border-color: gray;
+	border-collapse: separate;
+	
+	background-image: url('http://cloud.cs50.net/~kies/fp/images/ocean.jpg');
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+table.grid th {
+	border-width: 2px 2px 2px 2px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: blue blue blue blue;
+	
+	-moz-border-radius: 9px 9px 9px 9px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.grid td {
+	border-width: 2px 2px 2px 2px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: blue blue blue blue;
+	
+	-moz-border-radius: 9px 9px 9px 9px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.top {
+	border-width: 5px 5px 5px 5px;
+	border-spacing: 0px;
+	border-style: outset outset outset outset;
+	border-color: gray gray gray gray;
+	border-collapse: separate;
+	background-color: rgb(255, 255, 240);
+	margin-left: auto;
+	margin-right: auto;
+}
+table.top th {
+	border-width: 2px 2px 2px 2px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: blue blue blue blue;
+	background-color: rgb(255, 250, 250);
+	-moz-border-radius: 3px 3px 3px 3px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.top td {
+	border-width: 2px 2px 2px 2px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: blue blue blue blue;
+	background-color: rgb(255, 250, 250);
+	-moz-border-radius: 3px 3px 3px 3px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	background-image:

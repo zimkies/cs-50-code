@@ -1,0 +1,6 @@
+Run:
+
+python census_scraper.py
+
+at the command line to see it in action.  Note: this scraper takes something
+like 1 min to finish.

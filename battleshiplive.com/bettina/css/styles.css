@@ -1,0 +1,255 @@
+/****************************************************************************
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global stylesheet.
+ ****************************************************************************
+
+
+/* elements */
+
+body
+{
+  background: #336633 url(images/bg.jpg) no-repeat scroll 0 0;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+form
+{
+  margin: 0px;
+}
+
+
+/* classes */
+
+.outertable
+{
+	text-align:center;
+	border: 1px #BEBEBE;
+	border-spacing:0;
+	padding: 1px;
+}
+
+.innertable td,.innertable th
+{
+ border: 1px solid #BEBEBE;
+ padding: 5px;
+ text-align: left;
+ width: 100%;
+}
+
+.field td, th
+{
+  padding: 5px;
+  text-align: right;
+}
+
+.portfolio td, .portfolio th
+{
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: left;
+}
+
+.portfolio th {
+font-weight: bold;
+}
+
+.hr {
+border-bottom:1px solid #CCCCCC;
+font-size:0;
+height:1px;
+margin:2px 10px 2px 12px;
+background: inherit;
+}
+
+.icon{
+	border: 0 none;
+}
+
+.navcontainer {
+color:#FFFFFF;
+display: inline;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:1.3em;
+padding:6px 27px;
+float: right;
+}
+
+.navcontainer ul li
+{
+	display: inline;
+}
+
+.navcontainer ul li a
+{
+padding-left: 0;
+margin-left: 0;
+background-color: #036;
+color: White;
+float:left;
+font-family: arial, helvetica, sans-serif;
+}
+
+.navcontainer ul li a:hover
+{
+background-color: #369;
+color: #fff;
+}
+
+/* Id stuff  */
+#menu{
+	width:inherit;
+	padding-top:20px;
+	background: inherit;
+}
+
+
+#menu a {
+
+	width: auto;
+	font-weight: bold;
+	padding: 6px 10px 6px 10px;
+	background:none;
+	color: #000000;
+}
+
+#page {
+	width: 1000px;
+	margin: 30px auto;
+	background: #99cc66;
+	border:solid black 1px;
+}
+
+#content{
+	padding-right: 20px;
+    margin-left: 20px;
+	clear:both;
+	background: inherit;
+}
+	
+#footer{
+width:auto;
+padding:10px;
+clear:none;
+background: inherit;
+border-top:solid black 1px;
+font-family:arial; 
+font-size:13px;
+color: black;
+}
+
+#footer img{
+	vertical-align:middle;
+}
+
+#footer a{
+	color:Black;
+}
+
+#logo{
+width:inherit;
+clear:both;
+background: inherit;
+}
+
+#navcontainer ul
+{
+padding-left: 0;
+margin-left: 0;
+background-color: #336633;
+color: White;
+float: right;
+width: 100%;
+font-family: arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+padding: 0.2em 1em;
+background-color: inherit;
+color: White;
+text-decoration: none;
+float: right;
+#border-right: 1px solid black;
+}
+
+#navcontainer ul li a:hover
+{
+background-color: #369;
+color: #fff;
+}
+
+#loginbar ul
+{
+padding: 0;
+margin: 0;
+background-color: inherit;
+color: Black;
+float: right;
+font-family: arial, helvetica, sans-serif;
+clear: none;
+}
+
+#loginbar ul li { display: inline; }
+
+#loginbar ul li a
+{
+padding: 0.2em 1em;
+background-color: inherit;
+color: Black;
+text-decoration: none;
+float: right;
+border-right: 1px solid black;
+}
+
+#loginbar ul li a:hover
+{
+background-color: #369;
+color: inherit;
+}
+
+#welcome
+{
+background-color: inherit;
+color: Black;
+font-family: arial, helvetica, sans-serif;
+padding-left: 2px;
+float: left;
+}
+
+#content_title
+{
+font-size:2.4em;
+font-weight:normal;
+margin:0 0 0.5em;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-variant:small-caps;
+width:auto;
+padding:10px;
+clear:both;
+background: inherit;
+border-bottom:solid black 1px;
+color:inherit;
+}
+	
+#copyright
+{
+float: right;
+vertical-align: middle;
+
+}
+
+#creater
+{float: left;
+}
+
+
+
+
+	

@@ -1,0 +1,6 @@
+Run:
+
+python scraper.py
+
+at the command line to see it in action.  Note: this scraper takes something
+like 10-15 mins to finish.

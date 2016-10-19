@@ -1,0 +1,39 @@
+
+input{
+	color: #red;
+	background: white;
+	border: 1px solid red;
+	font-size: large;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+body{
+	font-size: xx-large;
+	text-align: center;
+	font-family: courier;
+	color: white;
+	background: url('background.jpg') darkblue top no-repeat fixed;
+}
+
+#yourboard {
+	font-family: Verdana;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: red;
+}
+
+div[id=yourboard] {
+	color: #000 !important;
+	}
+#yourboard:after {
+	content: 'Choose your battle name!';
+	color: red;
+	display: block;
+	text-indent: -0.1ex;
+	margin-top: -1.3em; 
+	}

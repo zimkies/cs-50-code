@@ -1,0 +1,70 @@
+/****************************************************************************
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global stylesheet.
+ ****************************************************************************
+
+
+/* elements */
+
+body
+{
+  background-image: images/background.jpg;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+input
+{
+color: #781351;
+background: #fee3ad;
+border: 1px solid #781351
+}
+
+
+
+label
+{
+width: 4em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block
+}
+
+.submit input
+{
+color: #000;
+background: #ffa20f;
+border: 2px outset #d7b9c9
+margin-left: 4.5em;
+} 
+
+form
+{
+  margin: 0px;
+}
+
+
+/* classes */
+
+.field
+{
+  padding: 5px;
+  text-align: right;
+}
+
+.portfolio td, .portfolio th
+{
+    border: 1px solid #AAAAAA;
+    padding: 5px;
+    text-align: left;
+}
+
+.portfolio th {
+font-weight: bold;
+}
+

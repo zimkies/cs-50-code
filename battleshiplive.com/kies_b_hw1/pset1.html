@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>CS 171 Visualization - HW 1</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/styles.css"  />
+		<script type="text/javascript" src="../../rw_common/themes/sprout/javascript.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/colourtag-page13.css"  />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/css/width/medium.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/css/sidebar/off.css" />
+
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/css/blog/none.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/css/height/variable.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/css/headers/none.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/css/title/large.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/css/font/12px.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="%pathto(css/background/colorbkg.css)%" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/sprout/css/filesharing/normal.css" />
+				
+		
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="all" />
+
+		<meta name="generator" content="RapidWeaver" />
+		<link rel="icon" href="http://www.cs171.org/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="http://www.cs171.org/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="http://www.cs171.org/apple-touch-icon.png" />
+		
+		
+		
+	</head>
+<body>
+
+<!-- Sprout theme for Rapidweaver designed by elixir graphics, www.elixirgraphics.com -->
+<div id="rwmbkg">
+	<div id="container">	
+		<div class="hdrwrap">
+
+			<div id="header2"></div>
+			<div id="header">
+					<div id="logospot">
+					<img src="../../rw_common/images/seas-sheild-web.gif" width="273" height="80" alt="Site logo"/>
+				</div>
+			</div>
+		</div>
+	
+	<div id="top">
+		
+					<div id="sitetitle">
+
+					<h1>CS 171 Visualization</h1>
+					<h2></h2>
+				</div>
+				<div id="topsidebar">
+					<div class="sidebarHorizontal">
+						<h3></h3>
+						
+					</div>
+			</div>
+
+	</div>
+	
+	<div id="navcontainer">
+		<ul><li><a href="../../index.html" rel="self">Home</a></li><li><a href="../../news.php" rel="self">News</a></li><li><a href="../../syllabus.html" rel="self">Syllabus</a></li><li><a href="../../schedule.html" rel="self">Schedule</a></li><li><a href="../../lectures/lectures.html" rel="self">Lectures</a></li><li><a href="../../homework/homework.html" rel="self" class="currentAncestor">Homework</a></li><li><a href="../../projects/projects.html" rel="self">Projects</a></li><li><a href="../../downloads.html" rel="self">Downloads</a></li><li><a href="../../sitemap.html" rel="self">Site Map</a></li></ul>
+	</div>
+
+	
+	<div id="contentContainer">
+				<div id="sidebarSide">
+					<h3></h3>
+						
+				</div>
+				
+				<div id="content">
+					<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title></head>
+
+<body>
+<h1>Homework 1: Data Scraping</h1>
+<h3>Due date: February 18th at 5pm EST</h3>
+<hr />
+<p>The goal of this homework is to learn how to scrape data from the web using Python and to start getting comfortable with Processing. You will practice writing Python scripts, and then write a small program to scrape information from a website of your choice. Next, you will visualize your data using the online system ManyEyes. Finally, you will start to dig into Processing, and modify a Processing sketch to visualize numerical data you scrape from the web.</p>
+
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+
+<h2>Part 1: Regular Expressions (20 points)</h2>
+
+<blockquote>
+  <p>1. Write a regular expression to describe strings containing only the letters {a, b, c} that are in sorted order. </p>
+  <p> a*b*c* </p>
+  <p>2. Write a regular expression for each of the following sets of binary strings (ie. strings that contain only 0's and 1's).</p>
+  <blockquote>
+
+    <p>a)      contains at least three consecutive 1s<br />
+		a)	[01]*1{3,}[01]*<br />
+      b)      contains the substring 110<br />
+	  	b)	[01]*110[01]*<br />
+      c)      contains the substring 1101100<br />
+	  	c)	[01]*1101100[01]* <br/>
+	  
+      d)      doesn't contain the substring 110<br />
+	  I actually spent about an hour trying to do this one, and couldn't.<br />
+    </p>
+  </blockquote>
+  <p>3. Write a regular expression that would return words whose letters are in alphabetical order, e.g., almost and beef.</p>
+<p>  3. a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*t*u*v*w*x*y*z* </p>
+
+</blockquote>
+
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+
+<h2>Part 2: Scraping Text Data with Python (40 points)</h2>
+
+<p> To run my code, just type in python scraper.py into the command line.
+
+<script type="text/javascript" src="http://manyeyes.alphaworks.ibm.com/manyeyes/visualizations/86fdd02efb9c11dd8b9a000255111976/comments/8703d384fb9c11dd8b9a000255111976.js?width=400&height=350"></script>
+
+<p>&nbsp;</p>
+<hr />
+
+<p>&nbsp;</p>
+
+<h2>Part 3: Your First Processing Sketch (40 points)</h2>
+
+<p>The goal of this section of the assignment is to get some more experience scraping data, and to get your feet wet with Processing.</p>
+<h3>Reading</h3>
+<p>To begin this part of the homework, read Chapter 4 of the Fry book after you download the <a href="timeseries_sketch.zip">timeseries sketch</a> example from the chapter. In this downloaded file you will find the top level sketch file <em>timeseries_sketch.pde</em>, two additional classes <em>FloatTable.pde</em> and <em>Integrator.pde</em>, and the data <em>data/milk-tea-coffee.tsv</em>. Each of the visualization and interaction techniques discussed in Chapter 4 are included somewhere in the sketch, so make sure to look all the way through the code. Read carefully through this chapter, and follow along in the example code - make sure you explore the different methods as this sketch will be the framework you use to visualize data that you will scrape from the web.</p>
+
+<h3>Scrape Numerical Data</h3>
+<p>Think about an area that interests you, and find a source of numerical data online that you can scrape  -- sports stats, the price of shoes on Zappos, the course numbers of  the classes offered in different departments at Harvard, etc. This data should contain three different sets of numbers with at least 50 numbers each. Like the <em>milk-tea-coffee </em> example, you'll need an additional column of numbers that will serve as your x-axis (such as year). If your data does not contain this information, you can just number the entries (1 -&gt; number_of_entries). Note that all three of your numerical sets should contain the same number of items. Write a Python script to scrape this data, and place your script and data file in the <em>timeseries_sketch/data</em> directory. Include a README that explains how to run your Python script.</p>
+<p>The data file should mimic the <em>data/milk-tea-coffee.tvs </em>file format. You can see an example file <a href="example_file.tsv">here</a>.</p>
+
+<h3>Visualize</h3>
+<p>You will be modifying the timeseries sketch, so be sure to save the original off somewhere if you want to refer back to it later. Modify the sketch to read your new data file. You may need to change the sizes of the tabs to accomodate larger data labels, and you may also need to change the frequency of tick marks on the axes, along with any other changes you think are necessary to effectively show this new data.</p>
+<p>Once you get your data into the sketch and the program running smoothly, think of some way to modify the visualization to better reflect your data. For example, perhaps rendering your data on a log scale will show the trends in your data more clearly. Or, maybe your data needs to be sorted from low to high. Feel free to change the color scheme, and pick a way to render your data that makes the most sense (ie. bars, scattered points, curved line, etc).</p>
+<p>Export your sketch as an applet, and include the applet in your write-up. Include a discussion about your data and why you choose it, and be sure to include links to the original data source. Next, discuss your design decisions for the modifications you made to the original sketch. Also include a few comments about what you liked/hated/found hard/found easy about data scraping and Processing.</p>
+
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+
+<h2>Submission Instructions</h2>
+
+<p>Your write-up will be submitted as a webpage -- you can use any webpage layout your wish, or, cut and paste the html source from this page and plug in your work. To submit your homework, create a folder named lastname_firstinitial_hw1 and place your webpage write-up and your DataCollection directory in this folder, along with your modified timeseries sketch directory -- please make sure that all of the links in your write-up are relative to this folder! Compress the folder (please use .zip compression) and submit on the <a href="http://isites.harvard.edu/k50561">course iSite page</a> in the HW 1 dropbox.</p>
+
+<p><strong>If we cannot access your work or links because these directions are not followed correctly, we will not grade your work. </strong></p>
+
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+
+<h2>ManyEyes Example</h2>
+If you don't see the Many Eyes visualization here wait a few seconds. The servers can be slow, unfortunately.
+<script type="text/javascript" src="http://manyeyes.alphaworks.ibm.com/manyeyes/visualizations/89ade5ae19149a9e01191ab90c7a0528/comments/df88da2aad9c11ddbb7a000255111976.js?width=400&height=350"></script>
+<p></p>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p>&nbsp;</p>
+<!-- Start Google Analytics -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6969882-1");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- End Google Analytics --></body>
+</html>
+
+				</div>
+	</div>
+	
+	<div class="clearer"></div>
+	
+	<div id="footer">
+		<div id="footertype">
+			<div id="bottomsidebar">
+
+			<div class="sidebarHorizontal">
+				<h3></h3>
+				
+			</div>
+		</div>
+		<div id="categories">
+						
+		</div>
+		<div class="clearer"></div>
+		<div id="breadcrumbcontainer">
+			
+		</div>
+
+		<div id="footertype2">
+			&copy; 2008 Harvard University
+		</div>
+		</div>
+	</div>
+	<div class="bottombar">
+	</div>
+	
+	
+	</div>
+</div>
+
+<!-- Start Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6969882-1");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- End Google Analytics --></body>
+</html>

@@ -1,0 +1,37 @@
+Things to do:
+
+1) Change all backgrounds, tab names, apologize names, logos.
+2) Make sure everything is escaped
+3) for index.php, get rid of all old stuff. Then provide links to
+   the different auctions.
+4) check file permissions.
+5) logout!!!!
+6) make sure you check who can access which pages.
+7) when logged in , it should not show the sign to login again in index.php.
+8) Give marcelina better control over users.
+9) How are you going to input each auction?
+10) check time stuff for make-auction - make sure input is ok!
+11) see if you can use usernames for a primary key instead of uid.
+12) figure out how to use foreign keys to restrict additions.
+13) add pictures to the database.
+14) calculat time left instead of end time in bids.
+15) change the amount of a person can raise by!
+16) CHECK IF INPUTS exist/are valid/escape
+17) you have to change the timezones for cronjobs/ scheduled tasks.
+   A) the following places may need changes: 
+   i) bid.php and auction_items.php at the beginning filter.
+   ii) make_auction2.php when it creates a cronjob/schedule.
+18) when a user has bid, make sure that the auction has started.
+19) make sure uploaded pictures aren't too big!.
+20) DONT FORGET TO RE-ADD ALL THE ADMINCHECKS AT THE TOP OF ADMIN FILES
+21) check that append_get is error-proof
+22) redo how single items are displayed
+33) redo how descriptions are inputted/shown
+dates worked:
+Friday Feb 12 - 3.45 hours.
+
+Questions:
+
+1) Do we want to show all current items being sold at a time, or just ones for a specific auction
+2) how much should we allow people to raise by????
+3) Should you be able to delete people easily??
